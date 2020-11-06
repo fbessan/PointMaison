@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PointMaison</string>
+
+
+    <string name="utilisateur_prompt">Utilisateur</string>
+    <string-array name="utilisateur_arrays">
+        <item>Fabrice</item>
+        <item>Maxime</item>
+        <item>Marina</item>
+        <item>Mireille</item>
+        <item>Rédys</item>
+        <item>Renaudie</item>
+        <item>Aimée</item>
+        <item>Lauréna</item>
+        <item>Belvine</item>
+    </string-array>
+
+    <string name="typeproduit_prompt">Produit vendu</string>
+    <string-array name="typeproduit_arrays">
+        <item>Glace</item>
+        <item>Sodabi</item>
+        <item>Pompe</item>
+    </string-array>
+
+</resources>

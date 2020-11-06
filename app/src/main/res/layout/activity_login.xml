@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:id="@+id/main_content"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/ic_launcher"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+
+        <!-- Montant Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:hint="Mot de passe"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_valider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="12dp"
+            android:background="@color/colorRed"
+            android:textColor="#FFF"
+            android:text="Se connecter"/>
+
+
+
+    </LinearLayout>
